@@ -1,0 +1,23 @@
+
+GET http://127.0.0.1:8000/items/
+
+POST http://127.0.0.1:8000/items/
+
+{
+  "name": "t shirt",
+  "description": "green",
+  "price": 180.0,
+  "tax": 0
+}
+
+
+PUT http://127.0.0.1:8000/items/2
+
+{
+  "name": "t shirt",
+  "description": "green",
+  "price": 200.0,
+  "tax": 7
+}
+
+DELETE http://127.0.0.1:8000/items/2
